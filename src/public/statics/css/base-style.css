@@ -58,3 +58,72 @@
 .header-buttons > .button:not(.-last) {
   margin-right: 50px;
 }
+
+.container-products-text {
+    width: 100%;
+    text-align: center;
+}
+
+.text-special {
+    color: #888888;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 48.67px;
+}
+
+.container-bot {
+  margin-top: 140px;
+  background-color: #707070;
+  height: 200px;
+}
+
+.container-header-bot {
+  padding-top: 65px;
+}
+
+.description-header-bot {
+  text-align: center;
+  color: #fff;
+  font-family: "Helvetica Neue", Helvetica;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.products-sec {
+  width: 60%;
+  position: relative;
+  left: 20%;
+  padding-top: 50px;
+}
+
+.products-list {
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 50px;
+}
+
+.next-products {
+  padding-top: 45px;
+}
+
+.next-products > .button {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  font-size: 16px;
+  color: #888;
+  font-family: "Helvetica Neue", Helvetica;
+  width: 250px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #707070;
+  cursor: pointer;
+}
+
+.next-products > .button:hover {
+  background-color: #888;
+  color: #fff;
+}
+
