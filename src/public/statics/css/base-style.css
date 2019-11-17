@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url("../fonts/font-helveticaneue.ttf") format("truetype");
+}
+
+.container-header-top {
+  background-color: #707070;
+  height: 320px;
+}
+
+.header-sec > .description-header {
+  text-align: center;
+  color: #fff;
+}
+
+.header-sec > .description-header > .medium-text {
+  padding-top: 70px;
+  font-family: "Helvetica Neue", Helvetica;
+  font-size: 20px;
+}
+
+.header-sec > .description-header > .big-text {
+  padding-top: 15px;
+  font-family: "Helvetica Neue", Helvetica;
+  font-size: 40px;
+}
+
+.wrap-header > .description-header > .small-text {
+  padding-top: 20px;
+  font-family: "Helvetica Neue", Helvetica;
+  font-size: 16px;
+}
+
+.header-buttons {
+  padding-top: 45px;
+  display: flex;
+  justify-content: center;
+}
+
+.header-buttons > .button {
+  background-color: #fff;
+  font-size: 14px;
+  color: #888;
+  font-family: "Helvetica Neue", Helvetica;
+  width: 160px;
+  height: 40px;
+  box-shadow: 0px 1px 6px #00000029;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.header-buttons > .button:hover {
+  background-color: #888;
+  color: #fff;
+}
+
+.header-buttons > .button:not(.-last) {
+  margin-right: 50px;
+}
