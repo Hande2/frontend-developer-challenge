@@ -1,14 +1,21 @@
-# Desafio | Frontend Developer
+O projeto foi escrito em uma máquina rodanto o sistema Ubuntu 18.4
 
-> **ATENÇÃO:** Antes de começar, se [cadastre na vaga](https://linxneemuchaordic.recruiterbox.com/) via Recruiterbox **=]**
+A página foi implementa utilizando HTML5, CSS, JavaScript e PHP(apenas para funcionar no Heroku)
 
-Olá! Seja bem vindo ao teste para a vaga de **Frontend Developer** para o time de **Customer Operations** da Linx Impulse.
+Após fazer o gir clone do projeto:
 
-Preparamos um teste que abordará seus conhecimentos em **HTML**, **CSS** e **Javascript**. Você será encaixado na vaga de acordo com seu resultado.
+Passo 1, pelo terminar entrar no diretorio do projeto.
 
----
+Passo 2, entra no diretório /frontend-developer-challenge/src/public
 
-## Sobre o desafio
+Passo 3, no terminal executar a linha de comando: npx live-server --port=8081
+
+Passo 4, após o navegador abrir, selecionar o arquivo: product_list.html
+
+Agora á página está pronta para ser testada
+
+
+## Sobre o desafio (Feito)
 
 O desafio consiste no *layout* de uma *landing page* com uma grade de produtos e um formulário de *newsletter*. Seu principal objetivo é transformar este *layout* em uma página funcional.
 
@@ -16,13 +23,13 @@ O desafio consiste no *layout* de uma *landing page* com uma grade de produtos e
 
 **Endpoint da API**: https://frontend-intern-challenge-api.iurykrieger.now.sh/products?page=1
 
-### Layout
+### Layout (Feito)
 
 Você terá que implementar o *layout* de acordo com esse **[mock](https://xd.adobe.com/spec/aa1c5781-ecac-46c9-7032-b66139998404-dc2d/)**. O *mock* contém a estrutura do layout e todo o estilo da página.
 
 É importante se ater aos detalhes de tamanho e espaçamento entre os elementos da página, construindo o HTML mais semântico possível utilizando-se das tags do HTML5.
 
-### Comportamento:
+### Comportamento: (Feito)
 
 Para preencher a página com as informações dos produtos, você terá que consultar esta **[API](https://frontend-intern-challenge-api.iurykrieger.now.sh/products?page=1)** de forma paginada, sendo que cada página consultada retornará as informações de **8 produtos** e um **link para a próxima página**.
 
@@ -48,25 +55,17 @@ Assim que obter os dados, você deverá implementar os seguintes pontos:
 
 ---
 
-## Dicas
+## Dicas (Valeu pelas dicas :)
 
-> Crie uma estrutura de arquivos organizada para suas implementações
+> Crie uma estrutura de arquivos organizada para suas implementações (Feito)
 
-> Construa o CSS de forma bem estruturada e em um arquivo separado.
+> Construa o CSS de forma bem estruturada e em um arquivo separado. (Feito)
 
-> Evite poluir o escopo global do Javascript
+> Evite poluir o escopo global do Javascript (Feito)
 
-> Documente suas funções e seja o mais conciso possível ao escrever seu código
+> Documente suas funções e seja o mais conciso possível ao escrever seu código (Feito)
 
-> Seu README.md deve conter as instruções necessárias para qualquer pessoa fazer seu projeto funcionar
+> Seu README.md deve conter as instruções necessárias para qualquer pessoa fazer seu projeto funcionar (Feito)
 
-> Your code will be better understood in English ;)
+> Your code will be better understood in English ;) ( Okay ;] )
 
-## Não conseguiu fazer tudo?
-A sua forma de priorizar a entrega também vai ser considerada. Escreva no README.md o que você conseguiu e não conseguiu implementar, descrevendo porque você preferiu priorizar desta maneira.
-
----
-
-Em caso de dúvidas, [abra uma issue](https://github.com/chaordic/frontend-intern-challenge/issues).
-
-**Boa sorte =]**

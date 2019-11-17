@@ -38,15 +38,15 @@
             <div class="friends-form">
                 <div class="friends-name">
                     <h1 class="title-input">Nome do seu amigo:</h1>
-                    <input type="text" id="name" class="friends-form-input" />
+                    <input pattern="[a-zA-Z]+" type="text" class="friends-form-input" />
                 </div>
                 <div class="friends-email">
                     <h1 class="title-input">E-mail:</h1>
-                    <input type="email" id="email" class="friends-form-input" onblur="validateEmail(this)"/>
+                    <input type="email" class="friends-form-input"/>
                 </div>
             </div>
             <div class="submit-form-data">
-                <button onclick="sendEmail()" class="button" id="sendButton">Enviar agora</button>
+                <button class="button">Enviar agora</button>
             </div>
         </section>
     </div>
